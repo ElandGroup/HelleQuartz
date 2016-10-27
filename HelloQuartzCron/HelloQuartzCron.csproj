@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D2E9E625-278B-471C-9D53-3E6DA3D40A51}</ProjectGuid>
+    <ProjectGuid>{13CD0FA1-DAB8-49F1-9537-C594362DB82C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloQuartz</RootNamespace>
-    <AssemblyName>HelloQuartz</AssemblyName>
+    <RootNamespace>HelloQuartzCron</RootNamespace>
+    <AssemblyName>HelloQuartzCron</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -53,7 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloJob.cs" />
+    <Compile Include="HelloCronJob.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
